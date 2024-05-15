@@ -15,5 +15,5 @@ title_meta = config.Title
 
 
 for (let i = 0; i < config.links.length; i++) {
-    link_container.innerHTML += linkComponent(config.links[i].Title, config.links[i].icon_classes, config.links[i].URL)
+    link_container.innerHTML += linkComponent(config.links[i].Title, config.links[i].icon_classes, config.links[i].URL, config.links[i].desc)
 }
