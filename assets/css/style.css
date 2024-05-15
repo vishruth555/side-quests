@@ -92,7 +92,7 @@ img {
   padding: 20px;
   border: 0.5px solid rgb(255, 255, 255);
   border-width: 1px;
-  width: 80%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -101,6 +101,22 @@ img {
   position: relative;
   font-size: 20px;
   letter-spacing: 3px;
+}
+.links2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 140px;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 4px;
+  background: white;
 }
 
 .links-in {
@@ -124,6 +140,18 @@ img {
 .hover:hover {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.hover2 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 1s;
+}
+
+.hover2:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -169,6 +197,18 @@ footer {
     font-family: "Dosis", sans-serif;
     position: relative;
     height: 80px;
+  }
+  .links2 {
+    text-align: center;
+    width: 40%;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: "Dosis", sans-serif;
+    position: relative;
+    height: 50px;
   }
   .profile-about {
     text-align: center;
